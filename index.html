@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - Vaishnavi Khuba</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 30px;
+      background: #ffffff;
+      color: #333;
+      border-radius: 15px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      background: #0047ab;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: white;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0;
+      background: #0047ab;
+      color: white;
+      text-transform: uppercase;
+      font-size: 1em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background: #1e90ff;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #0047ab;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .photo-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .photo-container img {
+      max-width: 150px;
+      border-radius: 50%;
+      border: 5px solid #0047ab;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .info-item {
+      margin-bottom: 15px;
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    .info-item span {
+      font-weight: bold;
+      color: #0047ab;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1e90ff;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0047ab;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      font-size: 1em;
+      background: #f9f9f9;
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #0047ab;
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    td span {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 10px 0;
+      padding-left: 25px;
+      position: relative;
+      font-size: 1.1em;
+      color: #333;
+    }
+
+    ul li::before {
+      content: "\f105";
+      font-family: "Font Awesome 5 Free";
+      font-weight: 900;
+      color: #0047ab;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    h2 {
+      font-size: 1.8em;
+      color: #0047ab;
+      margin-top: 30px;
+      border-bottom: 3px solid #0047ab;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+    }
+
+    .project {
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #0047ab;
+    }
+
+    .project p {
+      margin: 10px 0 0;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div>Vaishnavi Khuba</div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>Resume - Vaishnavi Khuba</h1>
+
+    <div class="photo-container">
+      <img src="C:\Users\khuba\Downloads" alt="Vaishnavi Khuba's Photo">
+    </div>
+
+    <div class="info-item">
+      <span>Name:</span> Vaishnavi Khuba
+    </div>
+
+    <div class="info-item">
+      <span>Phone Number:</span> 9448735826
+    </div>
+
+    <div class="info-item">
+      <span>Email-ID:</span> <a href="mailto:riyakk803@gmail.com">riyakk803@gmail.com</a>
+    </div>
+
+    <div class="info-item">
+      <span>LinkedIn Profile:</span> <a href="http://www.linkedin.com/in/vaishnavikhuba-934218337" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="info-item">
+      <span>GitHub URL:</span> <a href="https://github.com/Vaishnavi-Khuba" target="_blank">GitHub</a>
+    </div>
+
+    <h2 id="education">Educational Background</h2>
+    <table>
+      <tr>
+        <th>Course Studied</th>
+        <th>Name of the Institution/University</th>
+        <th>Percentage/CGPA</th>
+        <th>Year of Completion</th>
+      </tr>
+      <tr>
+        <td>B.E. (Computer Science and Engineering)</td>
+        <td>Malnad College of Engineering, Hassan</td>
+        <td>7.02</td>
+        <td>2026</td>
+      </tr>
+      <tr>
+        <td>12th</td>
+        <td>Masters PU College, Hassan</td>
+        <td>82%</td>
+        <td>2022</td>
+      </tr>
+      <tr>
+        <td>10th</td>
+        <td>Kendriya Vidyalaya, Hassan</td>
+        <td>79%</td>
+        <td>2020</td>
+      </tr>
+    </table>
+
+    <h2>Certifications</h2>
+    <table>
+      <tr>
+        <th>Course Title</th>
+        <th>Certifier</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td>C++ (By Abdul Bari)</td>
+        <td>Udemy</td>
+        <td>2024</td>
+      </tr>
+      <tr>
+        <td>Drone Manufacturing and Assembly Technician</td>
+        <td>Skill India</td>
+        <td>2024</td>
+      </tr>
+    </table>
+
+    <h2 id="projects">Projects</h2>
+    <div class="project">
+      <h3>Solar Light Cap (2022)</h3>
+      <p>A versatile headwear accessory designed for outdoor enthusiasts and those seeking convenience in low-light environments. Features built-in solar panels to charge integrated LED lights, making it ideal for camping, hiking, and gardening.</p>
+    </div>
+    <div class="project">
+      <h3>Website Design for a Price Comparison Site for Holidays (2024)</h3>
+      <p>Designed and developed a user-friendly holiday price comparison website, optimizing UX for easy navigation, filtering, and real-time deal comparisons. Integrated responsive design and streamlined layout to enhance user experience across devices.</p>
+    </div>
+
+    <h2>Technical Skill Proficiency</h2>
+    <div class="info-item">
+      <span>Operating Systems:</span> Windows, Ubuntu, UNIX
+    </div>
+    <div class="info-item">
+      <span>Programming Languages:</span> C, C++, Python, HTML, CSS, SQL, Java
+    </div>
+    <div class="info-item">
+      <span>Application Packages:</span> Microsoft Office, Adobe Creative Cloud
+    </div>
+    <div class="info-item">
+      <span>Other Tools:</span> Figma, Canva, VS Code, Adobe Photoshop, Turbo C++
+    </div>
+
+    <h2>Academic Achievements</h2>
+    <div class="info-item">
+      I have secured a CGPA of 7.02 in Computer Science and Engineering with no backlogs.
+    </div>
+
+    <h2>Voluntary Activities</h2>
+    <div class="info-item">
+      Participated in UBA (Unnat Bharat Abhiyan) visit to a government school in Dudda, Karnataka.
+    </div>
+
+    <h2>Extracurricular Activities</h2>
+    <ul>
+      <li>Part of the event organizing and managing club and conducted one state-level event in the college.</li>
+      <li>Industrial visit to Coffee Machine Suppliers Industry at Hassan.</li>
+      <li>Continuously involved in poster making and video editing using Adobe software.</li>
+      <li>Continuously involved in website building, majorly using HTML, CSS, JavaScript.</li>
+      <li>Continuously involved in database management using Structured Query Language.</li>
+    </ul>
+
+    <h2 id="contact">Personal Details</h2>
+    <div class="info-item">
+      <span>Date of Birth & Age:</span> 15/01/2004 and age: 20
+    </div>
+    <div class="info-item">
+      <span>Gender:</span> Female
+    </div>
+    <div class="info-item">
+      <span>Father's Name:</span> Shivanand Khuba
+    </div>
+    <div class="info-item">
+      <span>Permanent Address:</span> E1-17, Antariksha Nagar, MCF, Hassan, Karnataka (573201)
+    </div>
+    <div class="info-item">
+      <span>Languages Known:</span> English, Hindi, Kannada, Marathi
+    </div>
+
+    <button class="button">Download Resume</button>
+  </div>
+</body>
+</html>
